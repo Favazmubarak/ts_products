@@ -1,0 +1,40 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "commonjs",
+//     "rootDir": "src",
+//     "outDir": "dist",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true
+//   }
+// }
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",          // modern JS target
+//     "module": "ES2022",          // use ES Modules instead of CommonJS
+//     "rootDir": "src",
+//     "outDir": "dist",
+//     "strict": true,
+//     "moduleResolution": "node",  // helps Node find modules
+//     "esModuleInterop": true,     // allows default import compatibility
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
+
